@@ -8,10 +8,13 @@ section{
     margin-bottom: 100px;
 }
 img{
-    width: 100%;
+    width: 90%;
 }
 .hero-aria{
     display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    background-position: left;
 
 }
 .heif-width{
@@ -24,6 +27,7 @@ h1{
 }
 .orange-color{
     color: orange;
+    
 }
 .hire-me{
     background-image: linear-gradient(orange, tomato);
@@ -33,4 +37,10 @@ h1{
     font-weight: 700;
     padding: 10px 20px;
     border-radius: 5px;
+}
+.big-dreen{
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-position: right;
+    background-repeat: no-repeat;
 }
